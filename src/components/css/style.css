@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+/*
+==========================================
+   Custom Design
+==========================================
+*/
+
+a,
+a:hover {
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--btn-color) !important;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+/*===== Variable Define =====*/
+:root {
+  --btn-color: #e76f51;
+  --white-color: #ffff;
+  --text-color: #6c6c6c;
+  --text-header: #e0e0e0;
+  --black-color: #000;
+  --primary-font: "Poppins", sans-serif;
+}
+
+body {
+  font-family: var(--primary-font);
+  font-size: 100%;
+  font-weight: 400;
+}
+
+.wrapper {
+  padding-top: 6.25rem;
+  padding-bottom: 4.25rem;
+}
+
+.main-btn {
+  display: inline-block;
+  padding: 0.625rem 1.875rem;
+  line-height: 1.5625rem;
+  background-color: var(--btn-color);
+  color: var(--white-color);
+  font-size: 0.9375rem;
+  font-weight: 600;
+}
+
+h1 {
+  color: var(--black-color);
+  font-size: 3rem;
+}
+p {
+  color: var(--text-color);
+}
+.span-text {
+  color: var(--btn-color);
+}
+
+/*
+==========================================
+   header area Design
+==========================================
+*/
+.header-area {
+  background: #264653;
+}
+.header-area h1 {
+  color: var(--white-color);
+}
+.header-area p {
+  color: var(--text-header);
+}
+.nav-link a {
+  color: var(--white-color);
+  letter-spacing: 1px;
+}
+
+/*
+==========================================
+   feature area Design
+==========================================
+*/
+.feature-area .gray {
+  filter: grayscale(100%);
+}
+.feature-area .best-bike {
+  color: var(--btn-color);
+  display: inline-block;
+}
+
+.feature-area .best-bike::after {
+  content: "";
+  display: block;
+  background-color: var(--btn-color);
+  height: 2px;
+  width: 100%;
+}
+/*
+==========================================
+   Client area Design
+==========================================
+*/
+
+.fa-star {
+  color: #e77c40;
+  padding: 0.188rem;
+}
+/*
+==========================================
+   FAQ area Design
+==========================================
+*/
+.accordion-header button {
+  font-size: 1.5rem;
+}
+.accordion-button:not(.collapsed) {
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
+
+/*
+==========================================
+   Contact area Design
+==========================================
+*/
+
+.contact .info i {
+  font-size: 20px;
+  color: var(--btn-color);
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eef7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #45505b;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #728394;
+}
+
+/*
+==========================================
+   Footer area Design
+==========================================
+*/
+.footer-area {
+  background: #0b0d17;
+}
+
+.footer-link a {
+  color: var(--white-color);
+  padding: 0 0.625rem;
+}
+
+.copyright,
+.copyright p {
+  color: #d9dbe1;
+}

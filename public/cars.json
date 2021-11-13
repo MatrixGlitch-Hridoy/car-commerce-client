@@ -1,0 +1,72 @@
+[
+  {
+    "model": "Marcedes S480 matic",
+    "brand": "Marcedes-Benz",
+    "price": "180000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/FgwVj3J/banner.png"
+  },
+  {
+    "model": "Marcedes SUV",
+    "brand": "Marcedes-Benz",
+    "price": "380000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/q1K23zH/marcedes-5.png"
+  },
+  {
+    "model": "Marcedes S400",
+    "brand": "Marcedes-Benz",
+    "price": "80000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/qxcmqq4/marcedes-6.png"
+  },
+  {
+    "model": "Lamborghini 350GT",
+    "brand": "Lamborghini",
+    "price": "20000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/6HdYngY/marcedes-7.png"
+  },
+  {
+    "model": "Lamborghini uris",
+    "brand": "Lamborghini",
+    "price": "30000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/3mRtkvY/lamborghini-8.png"
+  },
+  {
+    "model": "Audi Q5",
+    "brand": "Audi",
+    "price": "12000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/xFhsVv8/tesla-3.png"
+  },
+  {
+    "model": "Audi A5",
+    "brand": "Audi",
+    "price": "160000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/X4ssCrS/tesla-4.png"
+  },
+  {
+    "model": "Tesla v3",
+    "brand": "Tesla",
+    "price": "100000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/LkSP96W/tesla-1.png"
+  },
+  {
+    "model": "Tesla Plaid",
+    "brand": "Tesla",
+    "price": "110000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/vmFpwZx/tesla-2.png"
+  },
+  {
+    "model": "Land Cruiser",
+    "brand": "Toyota",
+    "price": "20000",
+    "description": "Find cars for sale, local dealers, and advice. Also, our price-badging and price-drop notifications keep you informed of potential deals.",
+    "image": "https://i.ibb.co/8X2tLsh/land-10.png"
+  }
+]
