@@ -6,14 +6,14 @@ const MyOrders = () => {
     const { user } = useAuth();
   const [orders, setOrders] = useState([]);
   useEffect(() => {
-    axios.get(`http://localhost:5000/orders/${user.email}`).then((res) => {
+    axios.get(`https://car-commerce.herokuapp.com/orders/${user.email}`).then((res) => {
       setOrders(res.data);
     });
   }, []);
   const handleCancelBooking = (id) => {
     const permission = window.confirm("Are you sure, you want to cancel?");
     if (permission) {
-      axios.delete(`http://localhost:5000/orders/${id}`).then((res) => {
+      axios.delete(`https://car-commerce.herokuapp.com/orders/${id}`).then((res) => {
         // console.log(res);
         if (res.data.deletedCount > 0) {
           alert("Order Cancel Successful!");

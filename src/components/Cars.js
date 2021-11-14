@@ -7,7 +7,7 @@ const Cars = () => {
     const [isLoading, setIsLoading] = useState(false);
     useEffect(()=>{
         setIsLoading(true)
-        axios.get('http://localhost:5000/cars')
+        axios.get('https://car-commerce.herokuapp.com/cars')
         .then(res=>{
             setCars(res.data)
             setIsLoading(false)

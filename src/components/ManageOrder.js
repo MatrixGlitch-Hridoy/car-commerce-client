@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 const ManageOrder = () => {
     const [manageOrders, setManageOrders] = useState([]);
   useEffect(() => {
-    axios.get("http://localhost:5000/orders").then((res) => {
+    axios.get("https://car-commerce.herokuapp.com/orders").then((res) => {
       setManageOrders(res.data);
     });
   }, [manageOrders]);
@@ -12,7 +12,7 @@ const ManageOrder = () => {
   const handleCancelBooking = (id) => {
     const permission = window.confirm("Are you sure, you want to cancel?");
     if (permission) {
-      axios.delete(`http://localhost:5000/orders/${id}`).then((res) => {
+      axios.delete(`https://car-commerce.herokuapp.com/orders/${id}`).then((res) => {
         // console.log(res);
         if (res.data.deletedCount > 0) {
           alert("Order Cancel Successful!");
@@ -26,7 +26,7 @@ const ManageOrder = () => {
   };
   
   const handleStatus = (id) => {
-    axios.put(`http://localhost:5000/orders/${id}`)
+    axios.put(`https://car-commerce.herokuapp.com/orders/${id}`)
     .then(res=>{
         if(res.status===200){
         alert('Order Shipped SuccessFully!')

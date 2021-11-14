@@ -4,14 +4,14 @@ import React, { useEffect, useState } from 'react';
 const ManageProduc = () => {
   const [cars, setCars] = useState([]);
   useEffect(() => {
-    axios.get(`http://localhost:5000/cars`).then((res) => {
+    axios.get(`https://car-commerce.herokuapp.com/cars`).then((res) => {
       setCars(res.data);
     });
   }, []);
   const handleRemoveCars = (id) => {
     const permission = window.confirm("Are you sure, you want to remove?");
     if (permission) {
-      axios.delete(`http://localhost:5000/cars/${id}`).then((res) => {
+      axios.delete(`https://car-commerce.herokuapp.com/cars/${id}`).then((res) => {
         // console.log(res);
         if (res.data.deletedCount > 0) {
           alert("Car Removed Successfully!");

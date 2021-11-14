@@ -7,7 +7,7 @@ const Reviews = () => {
   const [isLoading, setIsLoading] = useState(false);
   useEffect(() => {
     setIsLoading(true);
-    axios.get("http://localhost:5000/reviews").then((res) => {
+    axios.get("https://car-commerce.herokuapp.com/reviews").then((res) => {
       setReviews(res.data);
       setIsLoading(false);
     });

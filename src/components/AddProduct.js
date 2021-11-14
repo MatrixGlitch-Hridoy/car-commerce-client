@@ -20,7 +20,7 @@ const AddProduct = () => {
           image:image
         }
 
-        axios.post('http://localhost:5000/cars',values)
+        axios.post('https://car-commerce.herokuapp.com/cars',values)
         .then(res=>{
           if(res.data.insertedId){
             alert('Car Added Successfully!');

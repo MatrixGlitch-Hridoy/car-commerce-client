@@ -18,7 +18,7 @@ const Review = () => {
           rating:rating
         }
 
-        axios.post('http://localhost:5000/reviews',values)
+        axios.post('https://car-commerce.herokuapp.com/reviews',values)
         .then(res=>{
           if(res.data.insertedId){
             alert('Review Added Successfully!');

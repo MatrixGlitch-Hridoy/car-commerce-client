@@ -17,7 +17,7 @@ const PurchaseCar = () => {
     const history = useHistory();
 
     useEffect(()=>{
-        fetch(`http://localhost:5000/cars/${id}`)
+        fetch(`https://car-commerce.herokuapp.com/cars/${id}`)
         .then(res=>res.json())
         .then(data=>{
             // console.log(data);
@@ -45,7 +45,7 @@ const PurchaseCar = () => {
           status:'pending'
         }
 
-        axios.post('http://localhost:5000/orders',values)
+        axios.post('https://car-commerce.herokuapp.com/orders',values)
         .then(res=>{
           if(res.data.insertedId){
             alert('purchase Successful');
