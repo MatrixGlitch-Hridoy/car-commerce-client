@@ -1,11 +1,12 @@
-import React from 'react';
-import banner from './images/banner.png'
-import './css/style.css'
-import { Link } from 'react-router-dom';
+import React from "react";
+import banner from "./images/banner.png";
+import "./css/style.css";
+import { Link } from "react-router-dom";
 const Banner = () => {
-    return (
-        <div class="container wrapper">
-        <div class="row align-items-center">
+  return (
+    <div style={{ backgroundColor: "#D7F9FE" }}>
+      <div class="container wrapper">
+        <div class="row align-items-center my-5">
           <div class="col-md-6 col-sm-12">
             <p>
               Computer-controlled digital transistorized with electronic advance
@@ -17,16 +18,22 @@ const Banner = () => {
               Exercitation veniam consequat sunt nostrud amet.
             </p>
             <Link to="/explore">
-            <button class="btn btn-warning fw-bold py-2 px-3 border-0 rounded"data-bs-toggle="modal" data-bs-target="#contactModal">Explore Cars</button>
+              <button
+                class="btn btn-warning fw-bold py-2 px-3 border-0 rounded"
+                data-bs-toggle="modal"
+                data-bs-target="#contactModal"
+              >
+                Explore More
+              </button>
             </Link>
-              
           </div>
           <div class="col-md-6 col-sm-12">
             <img src={banner} alt="" class="img-fluid mt-md-0 mt-5" />
           </div>
         </div>
       </div>
-    );
+    </div>
+  );
 };
 
 export default Banner;

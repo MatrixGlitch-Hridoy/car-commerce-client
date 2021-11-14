@@ -8,7 +8,6 @@ const Review = () => {
     const [review, setReview] = useState("");
     const [rating, setRating] = useState("");
     const history = useHistory();
-    console.log(rating);
 
     const handleAddReview = (e) => {
         e.preventDefault();

@@ -15,7 +15,7 @@ const Explore = () => {
   return (
     <>
       <div className="container my-5">
-        <h1 className="text-center fw-bolder">Featured Cars</h1>
+        <h1 className="text-center fw-bolder">Explore Our Cars</h1>
         <div className="row row-cols-1 row-cols-md-3 g-4">
           {!isLoading ? (
             cars.map((car) => (
